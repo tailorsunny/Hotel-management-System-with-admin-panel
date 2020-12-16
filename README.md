@@ -1,1 +1,1 @@
-# Hotal-management-System-with-admin-panel
+# Hotel-management-System-with-admin-panel
