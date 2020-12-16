@@ -1,0 +1,690 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+body{
+	margin: 0;
+	background-color: #031E39;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	overflow-x: hidden;
+	padding:0;
+}
+h1{
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+}
+img{
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        
+}
+#memu-icon{
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background-image: url('img/memu.png') center;
+
+}
+a:hover#menu-icon{
+	border-radius: 4px 4px 0 0;
+
+
+}
+
+nav{
+	
+		float: right;
+		padding: 10px;
+
+}
+ul{
+	list-style-type: none;
+}
+
+header{
+	
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	
+		
+}
+nav ul li{
+	font-family: 'alegreya sans',sans-serif;
+	font-size: 150%;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+
+
+}
+nav ul li a{
+	   color: #fff;
+	   padding: 10px;
+		text-decoration: none;
+}
+nav ul li a:hover{
+	 	color: #fff;	
+		background: green;
+		
+}
+.live{
+	color: #2E2E2E;
+}
+
+#contact input[type='submit'],
+#ulogin input[type='submit'],
+#uregister input[type='submit']{
+    background:green;
+    height: 40px;
+    border: 1px solid #A4A8EA;
+    width: 150px;
+     margin: 10px;	
+     font-size: 16px;
+     font-weight: 700; 
+}
+/*usermain*/
+#ulogin a{
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 2;
+	color: #33B5FF;
+
+}
+#ulogin a:hover{
+	
+	color: #581845;
+
+}
+#usermain form{
+		height: auto;
+		width: 60%;
+		margin:40px auto;
+		padding: 40px 0px;
+		/*margin-top: 20px;*/
+		background-color:rgba(0,0,0,0.7);
+		 -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 15px;
+        -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+        box-shadow: 0 0 10px rgba(0,0,0,0.7);
+        transition: 1s;
+	
+
+
+}
+#book form{
+		height: auto;
+		width: 50%;
+		margin:40px auto;
+		padding: 10px 0px;
+		/*margin-top: 20px;*/
+		background-color:rgba(0,0,0,0.7);
+		 -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 15px;
+        -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+        box-shadow: 0 0 10px rgba(0,0,0,0.7);
+        transition: 1s;
+	
+
+
+}
+#usermain select{
+	  background-color: #A4E6EA;
+   	font-size: 16px;
+   letter-spacing: 2px;
+   margin: 10px;
+   width: 40%;
+	height: 30px;
+	margin-left: 5%;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 1px solid #fff;
+	color: #333;
+	font-weight: bold;
+	font-size: 22px;
+	box-sizing: border-box;
+
+}
+#usermain p input[type='name'],#book input[type='name']{
+	width: 40%;
+	height: 35px;
+	padding:10px;
+	
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 1px solid #fff;
+	color: #333;
+	box-sizing: border-box;
+
+
+}
+#usermain p input[type='date']{
+	width: 30%;
+	height: 30px;
+	padding:10px;
+	margin-left: 5%;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 1px solid #fff;
+	color: #333;
+	font-weight: bold;
+	font-size: 22px;
+	box-sizing: border-box;
+}
+#usermain input[type='button'],#book input[type='submit']{
+    background:green;
+    height: 40px;
+    border: 1px solid #A4A8EA;
+    width: 150px;
+   margin: 25px;
+   font-weight: bold;
+   font-size: 150%;
+   
+}
+#book input[type='date']{
+	border-radius: 20px;
+	font-weight: bold;
+	width: 70%;
+	height: 25px;
+	margin: 10px;
+	font-size: 18px;
+	outline: none;
+	padding-left: 30px;
+	text-align: center;
+
+}
+#book input[type='text']{
+	border-radius: 10px;
+	font-weight: bold;
+	width: 80%;
+	height: 25px;
+	margin: 10px;
+	font-size: 18px;
+	outline: none;
+	padding-left: 0 auto;
+	text-align: center;
+
+}
+
+#book td{
+	font-size: 140%;
+	font-family: 'alegreya sans',sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#usermain button{
+    background:#096fec;
+    height: 40px;
+    border: 1px solid #A4A8EA;
+    width: 150px;
+   margin: 25px;
+   font-weight: bold;
+   font-size: 150%;
+   color: #fff;
+   
+}
+#usermain h4{
+	font-size: 180%;
+}
+#uques h1,#ucan h1{
+	padding-top: 7%;
+}
+#uques input[type='text'],
+#ucan input[type='text']{
+	width: 350px;
+	height: 40px;
+	margin: 2%;
+	font-size: 150%;
+	padding-left:1%;
+
+}
+textarea{
+	width: 350px;
+	height: 110px;
+	margin: 2%;
+	font-size: 150%;
+	padding-left:1%;
+}
+#uplan h1{
+	padding-top: 7%;
+
+}
+#uplan h2,#ucan h2{
+	padding-top: 2%;
+	font-size: 200%;
+
+
+}
+#ulogin h1{
+
+	padding-top: 0%;
+	margin-top: 0%;
+
+}
+
+/*user login page*/
+#ulogin,#admin{
+
+	
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 380px;
+	height: auto;
+	padding: 70px 20px;
+	margin-top: 300px;
+	background-color:rgba(0,0,0,0.7);
+		 -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 15px;
+        -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+        box-shadow: 0 0 10px rgba(0,0,0,0.7);
+      
+
+
+}
+#ulogin input{
+	width: 80%;
+	
+	color: #fff;
+
+
+
+}
+
+/*register page*/
+#uregister h1{
+	text-align: center;
+	font-size: 28px;
+	font-family: 'alegreya sans',sans-serif;
+
+}
+#uregister form{
+	margin: 20px auto;
+	display: block;
+    text-align: center;
+	background:rgba(0,0,0,0.5);
+	height: auto;
+	width: 500px;
+	padding: 40px 0;
+	
+}
+
+#uregister input{
+	width: 80%;
+	margin-bottom: 20px;
+	color: #fff;
+
+
+
+}
+
+#uregister label [for="message"]{
+	padding-left: 10px;
+}
+#uregister input[type="text"],#uregister input[type="number"],#ulogin input[type="text"],
+#ulogin input[type="password"],
+#admin input[type="password"],#uregister input[type="password"]{
+	
+		
+	height: 30px;
+	margin-left: 20px;
+	margin: 20px;
+	border: none;
+	outline: none;
+	color: black;
+	padding-left: 10px;
+	font-weight: bold;
+	text-align: center;
+	
+
+}
+::placeholder{
+	color: #5B5958;
+	padding: 5px;
+
+
+
+
+}
+#uregister input[type='submit']{
+    background:green;
+    height: 40px;
+    border: 1px solid #A4A8EA;
+    width: 150px;
+     margin: 10px;	
+     font-size: 16px;
+     font-weight: 700; 
+}
+#admin input{
+	width: 60%;
+	margin: 20px;
+	color: #fff;
+}
+#admin h1{
+	padding: 10px;
+}
+#admin input[type='submit']{
+	background:green;
+    height: 40px;
+    border: 1px solid #A4A8EA;
+    width: 100px;
+     margin: 30px auto;	
+     font-size: 16px;
+     font-weight: 700;
+
+}
+footer{
+	
+	height: 350px;
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+	
+
+	
+
+}
+
+.footer1{
+	width: 30%;
+	float: left;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 20px;
+
+}
+footer h3{
+	padding: 0;
+	font-weight: 400;
+	font-size: 26px;
+	text-align: center;
+	font-family: 'alegreya sans',sans-serif;
+	margin: 0;
+}
+footer .fa{
+	padding: 10px;
+	font-size: 36px;
+	color: #FF5733;
+	text-align: center;
+	margin: 0;
+	
+
+}
+
+footer .fa:hover{
+	color: #900C3F;
+	
+}
+footer .left1{
+	padding-left: 40px;
+
+}
+footer p{
+	
+	font-size: 18px;
+	text-align: center;
+	font-weight: 400;
+	padding: 10px 0;
+	font-family: 'alegreya sans',sans-serif;
+	text-align: justify;
+
+	
+}
+footer li{
+	
+	color: #fff;
+	padding: 10px;
+
+}
+footer li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	margin: 10px;
+	font-family: 'alegreya sans',sans-serif;
+
+}
+footer li a:hover{
+	color: #FF5733;
+	text-decoration: none;
+	
+
+}
+.footer2{
+	background-color: #5053F0;
+	color: #fff;
+	padding: 2px;
+	text-align: center;
+}
+ 
+
+ @media only screen and (max-width: 962px){
+	nav ul li{
+		font-size: 105%;
+		font-weight: bold;
+	}
+
+
+
+}
+
+@media only screen and (max-width: 890px){
+	
+footer p{
+	font-size: 17px;
+}
+footer .fa{
+	padding: 5px;
+	font-size: 36px;
+	color: #FF5733;
+	text-align: center;
+	margin: 0;
+	
+
+}
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                              +        
++                          MEDIA QUERY(768PX)                  +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+@media only screen and (max-width: 768px){
+
+		h2{
+		font-size: 150%;
+	}
+	h3{
+		font-size: 125%;
+	}
+	p{
+		font-size: 120;
+	}
+	#memu-icon{
+		display: inline-block;
+		
+    
+	}
+	nav ul,nav:active ul{
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding: 20px;
+		background: #6991ac;
+		right: 20px;
+		top:60px;
+		border: 1px solid #fff;
+		border-radius: 10px solid #fff;
+		width: 50%;
+	}
+	nav:hover ul{
+		display: block;
+	}
+	nav li{
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+
+	}
+	#book form{
+		height: auto;
+		width: 70%;
+		margin:40px auto;
+		padding: 10px 0px;
+		/*margin-top: 20px;*/
+		background-color:rgba(0,0,0,0.7);
+		 -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 15px;
+        -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+        box-shadow: 0 0 10px rgba(0,0,0,0.7);
+        transition: 1s;
+	
+
+
+}
+		
+footer{
+	
+	height: 700px;
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+	
+
+	
+
+}
+.footer1{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 20px;
+
+}
+footer .fa{
+	padding: 20px;
+	/*font-size: 36px;
+	color: #FF5733;
+	text-align: center;
+	margin: 0;*/
+	
+
+}
+footer p{
+	
+	font-size: 18px;
+	text-align: center;
+	font-weight: 400;
+	padding-right: 30px;
+	font-family: 'alegreya sans',sans-serif;
+	text-align: justify;
+
+	
+}
+footer li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	text-align: center;
+	margin: 0;
+	font-family: 'alegreya sans',sans-serif;
+
+}
+#usermain p input[type='name']{
+	width: 50%;
+	display: block;
+	float: left;
+	margin: 20px;
+	margin-left: 28%;
+	font-size: 16px;
+
+}
+#usermain p input[type='date']{
+	width: 50%;
+	display: block;
+	float: left;
+	margin: 20px;
+	margin-left: 28%;
+	font-size: 16px;
+
+}
+
+}
+@media only screen and (max-width: 550px){
+	
+	#uregister form{
+	
+	height: auto;
+	width: 100%;
+	
+	
+}
+#usermain p input[type='date']{
+	width: 60%;
+	display: block;
+	float: left;
+	margin: 20px;
+	margin-left: 28%;
+	font-size: 16px;
+
+}
+#usermain p input[type='name']{
+	width: 60%;
+	display: block;
+	float: left;
+	margin: 20px;
+	margin-left: 28%;
+	font-size: 16px;
+
+}
+#book form{
+		
+		width: 80%;
+		
+	
+
+
+}
+
+
+}
+@media only screen and (max-width: 490px){
+#ulogin,#admin{
+	width: 80%;
+	height: auto;
+	padding: 60px 20px;
+	
+
+
+}
+#book form{
+		
+		width:auto;
+		
+	
+
+
+}
+}
